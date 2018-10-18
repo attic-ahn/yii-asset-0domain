@@ -18,9 +18,9 @@ return [
     'organization.termsUrl' => 'https://0domain.name/rules',
 
     'supportEmail'      => $supportEmail,
-    'adminEmail'        => $supportEmail,
-    'abuseEmail'        => $supportEmail,
-    'salesEmail'        => $supportEmail,
+    'adminEmail'        => 'support@0domain.name',
+    'abuseEmail'        => 'sales@0domain.name',
+    'salesEmail'        => 'misuse@0domain.name',
     'gdprEmail'         => $supportEmail,
 
     'legals.privacyPolicyUrl' => 'https://0domain.name/rules/privacy',
