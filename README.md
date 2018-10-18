@@ -38,11 +38,11 @@ to the require section of your composer.json.
 
 E.g. we want MyNames
 
-    organization:   0Domain             -> MyNames
-    class name:     ODomainAsset        -> MyNamesAsset
-    domain name:    0domain.name        -> mynames.com
-    namespace:      odomain             -> mynames
-    package name:   yii-asset-0domain   -> yii-asset-mynames
+    organization:   AHnames             -> 0Domain             -> MyNames
+    class name:     AhnamesAsset        -> ODomainAsset        -> MyNamesAsset
+    domain name:    ahnames.com         -> 0domain.name        -> mynames.com
+    namespace:      ahnames             -> odomain             -> mynames
+    package name:   yii2-asset-ahnames  -> yii-asset-0domain   -> yii-asset-mynames
 
 ## License
 
