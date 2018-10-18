@@ -1,0 +1,51 @@
+{
+    "name": "ahnames/yii-asset-0domain",
+    "type": "yii2-extension",
+    "description": "0domain.name asset files: images, configs and more",
+    "keywords": [
+        "0domain",
+        "asset",
+        "extension",
+        "yii"
+    ],
+    "homepage": "https://github.com/ahnames/yii-asset-0domain",
+    "license": "proprietary",
+    "support": {
+        "email": "support@ahnames.com",
+        "source": "https://github.com/ahnames/yii-asset-0domain",
+        "issues": "https://github.com/ahnames/yii-asset-0domain/issues",
+        "wiki": "https://github.com/ahnames/yii-asset-0domain/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0",
+        "ahnames/hidev-ahnames": "<2.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ahnames\\assets\\odomain\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "config/params.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
